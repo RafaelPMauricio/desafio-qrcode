@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root{
+    --fonte: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: var(--fonte);
+}
+
+div{
+    margin: auto;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+div > img{
+    margin: auto;
+}
+
+div > h2{
+    font-weight: 700;
+    text-align: center;
+}
+
+div > p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
