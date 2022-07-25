@@ -13,13 +13,15 @@ body{
 
 div{
     margin: auto;
-    max-width: 700px;
+    max-width: 400px;
     background-color: white;
     border-radius: 15px;
 }
 
 div > img{
     margin: auto;
+    padding: 10px;
+    width: 300px;
 }
 
 div > h2{
