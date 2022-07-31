@@ -16,24 +16,27 @@ div{
     max-width: 400px;
     background-color: white;
     border-radius: 15px;
+    padding: 0px 20px;
 }
 
-div > img{
-    margin: auto;
-    padding: 10px;
-    width: 300px;
+img{
+    margin-top: 15px;
+    width: 400px;
+    border-radius: 15px;
 }
 
 div > h2{
     font-weight: 700;
     text-align: center;
+    
 }
 
 div > p{
     text-align: center;
     font-size: 15px;
     font-weight: 400;
+    padding-bottom: 25px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
